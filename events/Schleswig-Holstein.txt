@@ -402,6 +402,173 @@ country_event = {
     }
 }
 
+# Gastein Convention
+country_event = {
+	
+	id = 900550
+
+	title = "EVTNAME900550"
+	desc = "EVTDESC900550"
+	major = yes
+	fire_only_once = yes
+
+	trigger = {
+		NOT = {
+			exists = NGF
+			exists = GER
+		}
+		is_culture_group = germanic
+		SWH = {
+			owns = 369
+			owns = 370
+			NOT = { vassal_of = DEN }
+			in_sphere = THIS
+			war = no
+		}
+		any_greater_power = {
+			NOT = { tag = THIS }
+			NOT = { war_with = THIS }
+			NOT = { truce_with = THIS }
+			is_culture_group = germanic
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	immediate = {
+		set_global_flag = gastein_convention
+		set_country_flag = gastein_signee
+		random_country = {
+			limit = {
+				NOT = { tag = THIS }
+				NOT = { war_with = THIS }
+				NOT = { truce_with = THIS }
+				is_culture_group = germanic
+				is_greater_power = yes
+			}
+			set_country_flag = gastein_signee
+		}
+		random_country = {
+			limit = {
+				is_culture_group = germanic
+				is_greater_power = yes
+				529 = {
+					NOT = { owned_by = THIS }
+					is_capital = no
+					any_neighbor_province = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+						}
+					}
+				}
+			}
+			529 = {
+				add_core = LAU
+				owner = { release = LAU }
+			}
+			THIS = {
+				diplomatic_influence = { who = LAU value = 150 }
+				any_country = {
+					limit = { capital_scope = { continent = europe } }
+					relation = { who = LAU value = 50 }
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EVT900550OPTA"
+		create_vassal = LAU
+		random_country = {
+			limit = {
+				NOT = { tag = HOL }
+				owns = 369
+			}
+			release = HOL
+		}
+		diplomatic_influence = { who = HOL value = 100 }
+		random_country = {
+			limit = {
+				NOT = { tag = THIS }
+				has_country_flag = gastein_signee
+			}
+			diplomatic_influence = { who = HOL value = 200 }
+		}
+		any_country = {
+			limit = { capital_scope = { continent = europe } }
+			relation = { who = HOL value = 50 }
+		}
+	}
+}
+
+# Austro-Prussian War
+country_event = {
+	
+	id = 900551
+
+	title = "EVTNAME900551"
+	desc = "EVTDESC900551"
+	major = yes
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = gastein_convention
+		NOT = {
+			exists = NGF
+			exists = GER
+		}
+		is_culture_group = germanic
+		369 = {
+			owner = {
+				in_sphere = THIS
+				is_vasal = no
+			}
+		}
+		370 = {
+			owner = {
+				in_sphere = THIS
+				is_vasal = no
+			}
+		}
+		any_greater_power = {
+			NOT = { tag = THIS }
+			is_culture_group = germanic
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	option = {
+		name = "EVT900551OPTA"
+		random_country = {
+			limit = {
+				has_country_flag = gastein_signee
+				NOT = { tag = THIS }
+			}
+			leave_alliance = THIS
+			relation = {
+				who = THIS
+				value = -100
+			}
+			war = {
+				target = THIS
+				attacker_goal = {
+					casus_belli = unification_humiliate_cb
+				}
+				defender_goal = {
+					casus_belli = unification_humiliate_cb
+				}
+				call_ally = yes
+			}
+		}
+	}
+}
+
 # Resolving the Schleswig-Holstein Question
 country_event = {
 
@@ -423,6 +590,11 @@ country_event = {
             nationalism_n_imperialism = 1
             tag = PRU
         }
+		any_greater_power = {
+			NOT = { tag = THIS }
+			is_culture_group = germanic
+			truce_with = THIS
+		}
         war = no
         OR = {
             AND = {

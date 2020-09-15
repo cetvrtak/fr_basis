@@ -11284,15 +11284,19 @@ country_event = {
             }
             random_owned = {
                 limit = {
-                    total_pops = 250000
-                    NOT = { total_pops = 500000 }
-                }
+					owner = {
+						total_pops = 250000
+						NOT = { total_pops = 500000 }
+					}
+				}
                 THIS = { badboy = 0.25 }
             }
             random_owned = {
                 limit = {
-                    NOT = { total_pops = 250000 }
-                }
+					owner = {
+						NOT = { total_pops = 250000 }
+					}
+				}
                 THIS = { badboy = 0.05 }
             }
 

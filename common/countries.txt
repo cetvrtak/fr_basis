@@ -57,6 +57,7 @@ CHY        ="countries/Chechnya.txt"
 CHK        ="countries/Champasak.txt"
 QNG        ="countries/Qing China.txt"
 MGH        ="countries/Maghreb.txt"
+LAU        ="countries/Saxe-Lauenburg.txt"
 
 #HPM Africa
 BKF        ="countries/Burkina Faso.txt"

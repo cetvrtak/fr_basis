@@ -42,7 +42,7 @@ country_event = {
             government = democracy
         }
         NOT = {
-            has_global_flag = liberal_revolution_should_now_fire
+			has_global_flag = liberal_revolutions_should_now_fire
         }
     }
 
