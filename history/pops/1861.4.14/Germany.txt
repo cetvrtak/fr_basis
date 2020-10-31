@@ -4681,68 +4681,68 @@
 #under the rule of Wurttemburg in 1836
 #Ulm (408000/102000 POPS)
 593 = {
-    clergymen = {
-        culture = south_german
-        religion = protestant
-        size = 106.0
-    }
+	clergymen = {
+		culture = south_german
+		religion = protestant
+		size = 74
+	}
 
-    artisans = {
-        culture = south_german
-        religion = protestant
-        size = 583.0
-    }
+	artisans = {
+		culture = south_german
+		religion = protestant
+		size = 408
+	}
 
-    soldiers = {
-        culture = south_german
-        religion = protestant
-        size= 3000
-
-    }
-
-    soldiers = {
-        culture = south_german
-        religion = protestant
-        size= 1240
+	soldiers = {
+		culture = south_german
+		religion = protestant
+		size= 2100
 
     }
 
-    farmers = {
-        culture = south_german
-        religion = protestant
-        size = 6731.0
-    }
-
-    aristocrats = {
-        culture = south_german
-        religion = catholic
-        size = 954.0
-    }
-
-    clergymen = {
-        culture = south_german
-        religion = catholic
-        size = 980.5
-    }
-
-    artisans = {
-        culture = south_german
-        religion = catholic
-        size = 4823.0
-    }
-
-    soldiers = {
-        culture = south_german
-        religion = catholic
-        size= 954
+	soldiers = {
+		culture = south_german
+		religion = protestant
+		size= 868
 
     }
 
-    farmers = {
-        culture = south_german
-        religion = catholic
-        size = 88775.0
+	farmers = {
+		culture = south_german
+		religion = protestant
+		size = 4712
+	}
+
+	aristocrats = {
+		culture = south_german
+		religion = catholic
+		size = 668
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = catholic
+		size = 686
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 3376
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size= 668
+
     }
+
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 62143
+	}
 }
 #under the rule of Prussia in 1836
 #Sigmaringen (61000/15250 POPS)
@@ -5142,36 +5142,36 @@
 }
 #Landshut (164000/41000 POPS)
 600 = {
-    aristocrats = {
-        culture = south_german
-        religion = catholic
-        size = 424.0
+	aristocrats = {
+		culture = south_german
+		religion = catholic
+		size = 254
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = catholic
+		size = 270
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 1272
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size= 886
+
     }
 
-    clergymen = {
-        culture = south_german
-        religion = catholic
-        size = 450.5
-    }
-
-    artisans = {
-        culture = south_german
-        religion = catholic
-        size = 2120.0
-    }
-
-    soldiers = {
-        culture = south_german
-        religion = catholic
-        size= 1477
-
-    }
-
-    farmers = {
-        culture = south_german
-        religion = catholic
-        size = 38988.5
-    }
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 23393
+	}
 }
 #Ingolstadt (164000/41000 POPS)
 601 = {
@@ -5208,36 +5208,36 @@
 }
 #Regensburg (248000/62000 POPS)
 602 = {
-    aristocrats = {
-        culture = south_german
-        religion = catholic
-        size = 689.0
+	aristocrats = {
+		culture = south_german
+		religion = catholic
+		size = 345
+	}
+
+	clergymen = {
+		culture = south_german
+		religion = catholic
+		size = 331
+	}
+
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 2650
+	}
+
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size= 1030
+
     }
 
-    clergymen = {
-        culture = south_german
-        religion = catholic
-        size = 662.5
-    }
-
-    artisans = {
-        culture = south_german
-        religion = catholic
-        size = 5300.0
-    }
-
-    soldiers = {
-        culture = south_german
-        religion = catholic
-        size= 2060
-
-    }
-
-    farmers = {
-        culture = south_german
-        religion = catholic
-        size = 57008.5
-    }
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 28504
+	}
 }
 #Silesia Region (200000) #see Czechia.txt and Poland.txt for balance of region
 #under the rule of Prussia in 1836

@@ -26319,20 +26319,15 @@
 
 # Ulm
 593 = {
-    unit = {
-        x = 2958.000000
-        y = 1591.000000
+    text_position = {
+        x = 2957.450000
+        y = 1593.750000
     }
 
     text_scale = 2.000000
-    building_construction = {
-        x = 2955.699951
-        y = 1594.000000
-    }
-
-    military_construction = {
-        x = 2960.000000
-        y = 1588.000000
+    unit = {
+        x = 2957.850000
+        y = 1595.100000
     }
 
     factory = {
@@ -26340,18 +26335,20 @@
         y = 1594.599976
     }
 
-    building_position = {
-        fort = {
-            x = 2956.100098
-            y = 1582.800049
-        }
-
+    building_construction = {
+        x = 2954.900000
+        y = 1594.050000
     }
 
-    spawn_railway_track = {
-        {
-            x = 2953.802734
-            y = 1586.900024
+    military_construction = {
+        x = 2960.400000
+        y = 1597.550000
+    }
+
+    building_position = {
+        fort = {
+            x = 2956.000000
+            y = 1590.800000
         }
 
     }
@@ -26635,11 +26632,16 @@
 # Landshut
 600 = {
     text_position = {
-        x = 3006.500000
-        y = 1601.699951
+        x = 3001.600000
+        y = 1603.000000
     }
 
     text_scale = 2.600000
+    factory = {
+        x = 3012.000000
+        y = 1607.000000
+    }
+
     building_construction = {
         x = 2997.000000
         y = 1605.000000
@@ -26650,15 +26652,10 @@
         y = 1600.000000
     }
 
-    factory = {
-        x = 3012.000000
-        y = 1607.000000
-    }
-
     building_position = {
         fort = {
-            x = 3019.000000
-            y = 1603.000000
+            x = 3003.321569
+            y = 1600.917647
         }
 
     }
@@ -26700,26 +26697,16 @@
 
 # Regensburg
 602 = {
-    unit = {
-        x = 2996.000000
-        y = 1617.000000
-    }
-
     text_position = {
-        x = 2995.899902
-        y = 1612.099976
+        x = 3000.550000
+        y = 1611.150000
     }
 
     text_rotation = 6.283185
-    text_scale = 2.700000
-    building_construction = {
-        x = 2991.100098
-        y = 1620.699951
-    }
-
-    military_construction = {
-        x = 3000.000000
-        y = 1615.000000
+    text_scale = 2.600000
+    unit = {
+        x = 2997.500000
+        y = 1613.850000
     }
 
     factory = {
@@ -26727,18 +26714,20 @@
         y = 1612.000000
     }
 
-    building_position = {
-        fort = {
-            x = 2997.000000
-            y = 1622.000000
-        }
-
+    building_construction = {
+        x = 2993.600000
+        y = 1610.950000
     }
 
-    spawn_railway_track = {
-        {
-            x = 2981.000000
-            y = 1616.000000
+    military_construction = {
+        x = 3005.450000
+        y = 1614.350000
+    }
+
+    building_position = {
+        fort = {
+            x = 3004.250000
+            y = 1609.500000
         }
 
     }
@@ -29605,15 +29594,25 @@
 # Breslau
 682 = {
     text_position = {
-        x = 3062.600098
-        y = 1653.900024
+        x = 3069.500000
+        y = 1651.350000
     }
 
     text_rotation = 6.283184
     text_scale = 2.700000
+    unit = {
+        x = 3066.950000
+        y = 1656.000000
+    }
+
+    factory = {
+        x = 3057.450000
+        y = 1656.250000
+    }
+
     building_construction = {
-        x = 3056.000000
-        y = 1660.199951
+        x = 3061.200000
+        y = 1657.200000
     }
 
     military_construction = {
@@ -29621,23 +29620,10 @@
         y = 1649.000000
     }
 
-    factory = {
-        x = 3048.000000
-        y = 1663.000000
-    }
-
     building_position = {
         fort = {
             x = 3075.100098
             y = 1656.500000
-        }
-
-    }
-
-    spawn_railway_track = {
-        {
-            x = 3054.000000
-            y = 1670.000000
         }
 
     }
@@ -126238,4 +126224,131 @@
     }
 
     text_scale = 0.40000
+}
+
+# Passau
+3323 = {
+    text_position = {
+        x = 3016.650000
+        y = 1602.950000
+    }
+
+    text_scale = 1.70000
+    factory = {
+        x = 3015.570588
+        y = 1607.925000
+    }
+
+    building_construction = {
+        x = 3012.580882
+        y = 1601.051471
+    }
+
+    military_construction = {
+        x = 3018.197059
+        y = 1605.885294
+    }
+
+    building_position = {
+        fort = {
+            x = 3019.426471
+            y = 1602.308824
+        }
+
+    }
+
+}
+
+# Oberpfalz
+3324 = {
+    text_scale = 2.6
+    building_construction = {
+        x = 2988.050000
+        y = 1615.050000
+    }
+
+    military_construction = {
+        x = 2990.850000
+        y = 1621.800000
+    }
+
+    building_position = {
+        fort = {
+            x = 2999.550000
+            y = 1621.150000
+        }
+
+    }
+
+}
+
+# Memmingen
+3325 = {
+    text_position = {
+        x = 2957
+        y = 1584.6
+    }
+
+    text_scale = 1.2
+    unit = {
+        x = 2959.500000
+        y = 1588.850000
+    }
+
+    factory = {
+        x = 2956.550000
+        y = 1582.000000
+    }
+
+    building_construction = {
+        x = 2955.650000
+        y = 1585.550000
+    }
+
+    military_construction = {
+        x = 2962.350000
+        y = 1590.500000
+    }
+
+    building_position = {
+        fort = {
+            x = 2958.800000
+            y = 1583.900000
+        }
+
+    }
+
+}
+
+# Glogau
+3326 = {
+    text_scale = 3
+    unit = {
+        x = 3047.650000
+        y = 1666.350000
+    }
+
+    factory = {
+        x = 3057.000000
+        y = 1663.450000
+    }
+
+    building_construction = {
+        x = 3052.650000
+        y = 1666.700000
+    }
+
+    military_construction = {
+        x = 3041.200000
+        y = 1667.350000
+    }
+
+    building_position = {
+        fort = {
+            x = 3046.250000
+            y = 1661.050000
+        }
+
+    }
+
 }

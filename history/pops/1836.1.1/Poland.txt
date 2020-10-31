@@ -306,137 +306,137 @@
 #under the rule of Prussia in 1836
 #Breslau (936000/234000 POPS)
 682 = {
-    aristocrats = {
-        culture = north_german
-        religion = protestant
-        size = 3770
-    }
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 2262
+	}
 
-    bureaucrats = {
-        culture = north_german
-        religion = protestant
-        size = 3200
-    }
+	bureaucrats = {
+		culture = north_german
+		religion = protestant
+		size = 1920
+	}
 
-    officers = {
-        culture = north_german
-        religion = protestant
-        size = 750
-    }
+	officers = {
+		culture = north_german
+		religion = protestant
+		size = 450 
+	}
 
     clergymen = {
         culture = north_german
         religion = protestant
-        size = 1750
+        size = 1050
     }
 
-    clerks = {
-        culture = north_german
-        religion = protestant
-        size = 125
-    }
+	clerks = {
+		culture = north_german
+		religion = protestant
+		size = 75
+	}
 
     artisans = {
         culture = north_german
         religion = protestant
-        size = 11785
+        size = 7071
     }
 
-    soldiers = {
-        culture = north_german
-        religion = protestant
-        size = 7500
-    }
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 4500 
+	}
 
-    farmers = {
-        culture = north_german
-        religion = protestant
-        size = 155780
-    }
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 93468
+	}
 
-    clergymen = {
-        culture = south_german
-        religion = catholic
-        size = 175
-    }
+	clergymen = {
+		culture = south_german
+		religion = catholic
+		size = 105
+	}
 
-    artisans = {
-        culture = south_german
-        religion = catholic
-        size = 900
-    }
+	artisans = {
+		culture = south_german
+		religion = catholic
+		size = 540
+	}
 
-    soldiers = {
-        culture = south_german
-        religion = catholic
-        size = 1000
-    }
+	soldiers = {
+		culture = south_german
+		religion = catholic
+		size = 600
+	}
 
-    farmers = {
-        culture = south_german
-        religion = catholic
-        size = 15925
-    }
+	farmers = {
+		culture = south_german
+		religion = catholic
+		size = 9555
+	}
+	
+	aristocrats = {
+		culture = ashkenazi
+		religion = jewish
+		size = 60  
+	}
 
-    aristocrats = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
+	clergymen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 60  
+	}
 
-    clergymen = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-
-    clerks = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-
-    artisans = {
-        culture = ashkenazi
-        religion = jewish
-        size = 1475
-    }
-
-    soldiers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-
-    farmers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 450
-    }
-
-    clergymen = {
-        culture = polish
-        religion = catholic
-        size = 350
-    }
+	clerks = {
+		culture = ashkenazi
+		religion = jewish
+		size = 60
+	}
 
     artisans = {
-        culture = polish
-        religion = catholic
-        size = 1750
+        culture = ashkenazi
+        religion = jewish
+        size = 885
     }
 
-    soldiers = {
-        culture = polish
-        religion = catholic
-        size = 1000
-    }
+	soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 60 
+	}
 
-    farmers = {
-        culture = polish
-        religion = catholic
-        size = 31900
-    }
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 270  
+	}
+
+	clergymen = {
+		culture = polish
+		religion = catholic
+		size = 210
+	}
+
+	artisans = {
+		culture = polish
+		religion = catholic
+		size = 1050
+	}
+
+	soldiers = {
+		culture = polish
+		religion = catholic
+		size = 600
+	}
+
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 19140 
+	}
 }
 #Liegnitz (484000/121000 POPS)
 683 = {
