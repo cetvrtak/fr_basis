@@ -5,92 +5,92 @@
     aristocrats = {
         culture = north_italian
         religion = catholic
-        size = 4000
+        size = 3200
     }
 
     capitalists = {
         culture = north_italian
         religion = catholic
-        size = 75
+        size = 60
     }
 
     bureaucrats = {
         culture = north_italian
         religion = catholic
-        size = 800
+        size = 640
     }
 
     officers = {
         culture = north_italian
         religion = catholic
-        size = 425
+        size = 340
     }
 
     clergymen = {
         culture = north_italian
         religion = catholic
-        size = 2325
+        size = 1860
     }
 
     artisans = {
         culture = north_italian
         religion = catholic
-        size = 10000
+        size = 8000
     }
 
     craftsmen = {
         culture = north_italian
         religion = catholic
-        size = 3000
+        size = 2400
     }
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 800
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 4000
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 159920
+	}
+
+	######Jews
+	aristocrats = {
+		culture = ashkenazi
+		religion = jewish
+		size = 80
+	}
+
+	soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 80
+	}
+
+	clergymen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 80
+	}
 
     artisans = {
-        culture = north_italian
-        religion = catholic
-        size = 1000
-    }
-
-    soldiers = {
-        culture = north_italian
-        religion = catholic
-        size = 5000
+        culture = ashkenazi
+        religion = jewish
+        size = 80
     }
 
     farmers = {
-        culture = north_italian
-        religion = catholic
-        size = 199900
-    }
-
-    ######Jews
-    aristocrats = {
         culture = ashkenazi
         religion = jewish
-        size = 100
-    }
-
-    soldiers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-
-    clergymen = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-
-    artisans = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
-    }
-
-    farmers = {
-        culture = ashkenazi
-        religion = jewish
-        size = 100
+        size = 80
     }
     ########
 

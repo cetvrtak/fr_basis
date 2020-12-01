@@ -276,3 +276,97 @@
 		size = 12760 
 	}
 }
+#Saluzzo = 0.2 * Turin (916000/229000 POPS)
+3327 = {
+	aristocrats = {
+		culture = north_italian
+		religion = catholic
+		size = 800
+	}
+	
+	capitalists = {
+		culture = north_italian
+		religion = catholic
+		size = 5
+	}
+
+	bureaucrats = {
+		culture = north_italian
+		religion = catholic
+		size = 170
+	}
+
+	officers = {
+		culture = north_italian
+		religion = catholic
+		size = 85
+	}
+
+	clergymen = {
+		culture = north_italian
+		religion = catholic
+		size = 465
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 2000
+	}
+
+	craftsmen = {
+		culture = north_italian
+		religion = catholic
+		size = 600
+	}
+
+	artisans = {
+		culture = north_italian
+		religion = catholic
+		size = 200
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 1000
+	}
+
+	farmers = {
+		culture = north_italian
+		religion = catholic
+		size = 39980
+	}
+
+	######Jews
+	aristocrats = {
+		culture = ashkenazi
+		religion = jewish
+		size = 20
+	}
+
+	soldiers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 20
+	}
+
+	clergymen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 20
+	}
+
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 20
+	}
+	
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 20
+	}
+	########
+}
