@@ -1,6 +1,17 @@
-owner = ENG
-controller = ENG
-add_core = CAN
-trade_goods = grain
-life_rating = 34
-colonial = 2
+# Mantua
+owner = AUS
+controller = AUS
+add_core = LOM
+add_core = ITA
+trade_goods = cotton
+life_rating = 45
+fort = 1
+state_building = {
+    level = 1
+    building = fabric_factory
+    upgrade = yes
+}
+1861.1.1 = {
+    remove_core = LOM
+}
+1861.1.1 = { railroad = 3 }
