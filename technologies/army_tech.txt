@@ -1,9 +1,15 @@
 #army_doctrine
-army_doctrine_0 = {
+napoleonic_tactics = {
     area = army_doctrine
-    year = 1783
+    year = 1803
     cost = 1800
     unciv_military = yes
+
+    army_base = {
+        default_organisation = 5
+        supply_consumption = 0.10
+    }
+    dig_in_cap = 1
 
     ai_chance = {
         factor = 2
@@ -1661,7 +1667,7 @@ rocket_artillery = {
 
 bronze_muzzle_loaded_artillery = {
     area = heavy_armament
-    year = 1836
+    year = 1815
     cost = 3600
     unciv_military = yes
 
@@ -2408,7 +2414,7 @@ polygonal_fort = {
 
 military_staff_system = {
     area = military_science
-    year = 1836
+    year = 1815
     cost = 3600
     unciv_military = yes
 
@@ -3231,11 +3237,17 @@ aeronautics = {
 
 
 #army_leadership
-army_leadership_0 = {
+artillery_officers = {
     area = army_leadership
     year = 1783
     cost = 1800
     unciv_military = yes
+
+    morale = 0.25
+    military_tactics = 0.25
+    army_base = {
+        supply_consumption = 0.10
+    }
 
     ai_chance = {
         factor = 2
@@ -3244,7 +3256,7 @@ army_leadership_0 = {
 
 army_command_principle = {
     area = army_leadership
-    year = 1836
+    year = 1815
     cost = 3600
 
     morale = 0.25
