@@ -634,7 +634,7 @@ political_decisions = {
                     }
                     NOT = { has_country_flag = post_colonial_country }
                 }
-                country_event = 11101GER
+                country_event = 11111
             }
         }
         ai_will_do = { factor = 1 }
