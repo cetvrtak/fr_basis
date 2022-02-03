@@ -440,16 +440,10 @@ country_event = {
 	immediate = {
 		set_global_flag = gastein_convention
 		set_country_flag = gastein_signee
-		random_country = {
-			limit = {
-				NOT = { tag = THIS }
-				NOT = { war_with = THIS }
-				NOT = { truce_with = THIS }
-				is_culture_group = germanic
-				is_greater_power = yes
-			}
-			set_country_flag = gastein_signee
-		}
+	}
+
+	option = {
+		name = "EVT900550OPTA"
 		random_country = {
 			limit = {
 				is_culture_group = germanic
@@ -469,19 +463,18 @@ country_event = {
 				add_core = LAU
 				owner = { release = LAU }
 			}
+		}
+		random_country = {
+			limit = { exists = LAU }
 			THIS = {
+				create_vassal = LAU
 				diplomatic_influence = { who = LAU value = 150 }
-				any_country = {
-					limit = { capital_scope = { continent = europe } }
-					relation = { who = LAU value = 50 }
-				}
+			}
+			any_country = {
+				limit = { capital_scope = { continent = europe } }
+				relation = { who = LAU value = 50 }
 			}
 		}
-	}
-
-	option = {
-		name = "EVT900550OPTA"
-		create_vassal = LAU
 		random_country = {
 			limit = {
 				NOT = { tag = HOL }
@@ -493,9 +486,13 @@ country_event = {
 		random_country = {
 			limit = {
 				NOT = { tag = THIS }
-				has_country_flag = gastein_signee
+				NOT = { war_with = THIS }
+				NOT = { truce_with = THIS }
+				is_culture_group = germanic
+				is_greater_power = yes
 			}
-			diplomatic_influence = { who = HOL value = 200 }
+			diplomatic_influence = { who = HOL value = 150 }
+			set_country_flag = gastein_signee
 		}
 		any_country = {
 			limit = { capital_scope = { continent = europe } }
