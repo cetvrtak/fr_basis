@@ -549,6 +549,7 @@ country_event = {
         civilized = yes
         cotton = 10
         NOT = { has_global_flag = workplace_events_disabled }
+        NOT = { tag = AAA }
     }
 
     mean_time_to_happen = {
